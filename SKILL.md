@@ -257,7 +257,7 @@ Final report structure:
 
 ---
 
-## Key Patterns Discovered (5-Template Experiment)
+## Key Patterns Discovered (Experiment output Example)
 
 ### What Works
 
@@ -277,12 +277,11 @@ Final report structure:
 
 | Gap | Frequency | Impact |
 |-----|-----------|--------|
-| Multi-account handling | 5/5 | HIGH |
 | Verification steps | 5/5 | MEDIUM |
 | Inline code patterns | 4/5 | MEDIUM |
 | Error recovery | 5/5 | HIGH |
 | Project structure | 4/5 | MEDIUM |
-| Expected output URL | 3/5 | LOW |
+| Expected output  | 3/5 | LOW |
 
 ---
 
@@ -331,32 +330,16 @@ Workspace: [path]
 
 ## Batch Mode
 
-For evaluating multiple templates:
+For evaluating multiple files in tandem
 
 ```bash
 /improve-agents-md batch ~/path/to/templates/
 ```
 
 Outputs:
-- Individual feedback in each template's `feedback-01/`
-- Summary report in `~/Develop/agents-md-eval/summary.md`
+- Individual feedback in each template's `feedback-n/` and iterate
+- Summary report in `~/agents-md-eval/summary.md`
 - Ranked improvements by impact
-
----
-
-## Integration Points
-
-### Related Skills
-- `wiki-maker`: Publish improvement reports
-- `acc-spike`: Similar iterative quality approach
-
-### Agents
-- `general`: For spawning eval sessions
-- `explore`: For codebase research when needed
-
-### Output Locations
-- Feedback: `<template>/feedback-0X/`
-- Reports: `~/todos/outputs/<date>/agents-md-improvements/`
 
 ---
 
