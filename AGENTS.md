@@ -122,15 +122,4 @@ After running, you get:
 - Suggested edits with priority rankings
 - Metrics comparison (before/after)
 
-## Based On
 
-This skill was developed from testing 5 Cloudflare templates:
-- d1-template → [d1-guestbook-demo](https://d1-guestbook-demo.cameronwhiteside.workers.dev/)
-- react-router-starter → [vibe-check-demo](https://vibe-check-demo.cameronwhiteside.workers.dev/)
-- postgres-hyperdrive → [postgres-hyperdrive-demo](https://postgres-hyperdrive-demo.cameronwhiteside.workers.dev/)
-- saas-admin-template → [cam-saas-admin-demo](https://cam-saas-admin-demo.cameronwhiteside.workers.dev/)
-- durable-chat-template → [fun-chat-demo](https://fun-chat-demo.cameronwhiteside.workers.dev/)
-
-## Documentation
-
-Full documentation: [Wiki](https://wiki.cfdata.org/pages/viewpage.action?pageId=1372553856)
